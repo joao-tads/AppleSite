@@ -1,0 +1,38 @@
+@font-face {
+	font-family: SFProText;
+	src: url(../fonts/SFProText-Regular.ttf);
+}
+
+body {
+    font-family: SFProText;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgba(0,0,0,0.8);
+    color: rgb(190, 190, 190);
+    padding: 0.0018%;
+    font-size: 14px;
+    text-align: center;
+    position: static;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 3.2%;
+    display: inline;    
+}
+
+nav ul li i {
+    font-size: 18px;
+}
+
+.alert-danger {
+    background-color: rgb(230, 65, 65);
+    color: white;
+    margin-top: 0;
+    font-size: 13.8px;
+    padding: 1.5% 28% 1.5% 28%;
+    text-align: justify;
+}
